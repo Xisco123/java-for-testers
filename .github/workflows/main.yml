@@ -3,7 +3,7 @@ name: Java CI with Maven
 on:
   pull_request:
     branches:
-      - main  # Déclenche l'action sur une PR vers la branche `main`
+      - master  # Déclenche l'action sur une PR vers la branche `main`
 
 jobs:
   build:
